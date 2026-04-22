@@ -29,22 +29,22 @@ import useUserStore from '@/stores/UserStore';
 const userStore = useUserStore();
 
 const info = ref({
-  name: "Chuckle",
-  jobs: ["University Student", "Front-end Developer", "Blogger"],
-  startYear: "2023",
+  name: "克喵",
+  jobs: ["University Student", "Blogger"],
+  startYear: "2026",
   button: [
     {
       type: "blue",
-      name: "Blog",
+      name: "Homepage",
       fun() {
-        window.open("https://www.qcqx.cn/", "_blank");
+        window.open("https://www.kemiaosw.top/", "_blank");
       }
     },
     {
       type: "white",
       name: "GitHub",
       fun() {
-        window.open("https://github.com/qxchuckle", "_blank");
+        window.open("https://github.com/Kemeow0815", "_blank");
       }
     },
   ]
